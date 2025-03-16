@@ -1,6 +1,6 @@
 # Amazon Credit Card Statement Transaction Extractor
 
-A Python utility for CSV extraction of transaction data from Amazon credit card (Sychrony) statement PDFs.
+A Python utility for CSV extraction of transaction data from Amazon (Sychrony) credit card statement PDFs.
 
 ## Features
 
@@ -115,7 +115,7 @@ The script generates:
 
 ## Troubleshooting
 
-- **PDF Compatibility:** The script is designed to work with Amazon Synchrony credit card statement PDFs (as of date of last commit). Different statement formats may require adjustments to the regex patterns.
+- **PDF Compatibility:** The script is designed to work with Amazon (Synchrony) credit card statement PDFs (as of date of last commit). Different statement formats may require adjustments to the regex patterns.
 - **Verification Failures:** If verification fails, check if the statement has any unusual formatting or if there are transactions that span across multiple pages.
 - **Year Assignment:** The script attempts to determine the correct year for each transaction. If you notice incorrect years, check the billing cycle dates in your statements.
 
