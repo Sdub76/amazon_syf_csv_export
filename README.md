@@ -1,6 +1,6 @@
 # Amazon Credit Card Statement Transaction Extractor
 
-A Python utility for extracting, verifying, and analyzing transaction data from Amazon credit card statement PDFs.
+A Python utility for CSV extraction of transaction data from Amazon credit card (Sychrony) statement PDFs.
 
 ## Features
 
