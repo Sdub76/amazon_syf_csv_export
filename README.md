@@ -25,10 +25,29 @@ git clone https://github.com/sdub76/amazon_syf_csv_export.git
 cd amazon_syf_csv_export
 ```
 
-2. Install required dependencies:
+2. Set up a virtual environment (recommended):
+
+```bash
+# Create a virtual environment
+python -m venv venv
+
+# Activate the virtual environment
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+```
+
+3. Install required dependencies:
 
 ```bash
 pip install PyPDF2
+```
+
+4. When you're done using the program, you can deactivate the virtual environment:
+
+```bash
+deactivate
 ```
 
 ## Usage
