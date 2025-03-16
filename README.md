@@ -27,17 +27,13 @@ cd amazon_syf_csv_export
 
 2. Set up a virtual environment (recommended):
 
+- Create a virtual environment
 ```bash
-# Create a virtual environment
 python3 -m venv amazon_syf_csv_export --system-site-packages
 ```
+
+- Activate the virtual environment (macOS/Linux/WSL):
 ```bash
-# Activate the virtual environment
-# On Windows:
-amazon_syf_csv_export\Scripts\activate
-```
-```bash
-# On macOS/Linux/WSL:
 source amazon_syf_csv_export/bin/activate
 ```
 
@@ -119,7 +115,7 @@ The script generates:
 
 ## Troubleshooting
 
-- **PDF Compatibility:** The script is designed to work with Amazon credit card statement PDFs. Different statement formats may require adjustments to the regex patterns.
+- **PDF Compatibility:** The script is designed to work with Amazon Synchrony credit card statement PDFs (as of date of last commit). Different statement formats may require adjustments to the regex patterns.
 - **Verification Failures:** If verification fails, check if the statement has any unusual formatting or if there are transactions that span across multiple pages.
 - **Year Assignment:** The script attempts to determine the correct year for each transaction. If you notice incorrect years, check the billing cycle dates in your statements.
 
