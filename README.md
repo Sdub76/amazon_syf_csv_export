@@ -35,6 +35,8 @@ python3 -m venv amazon_syf_csv_export --system-site-packages
 # Activate the virtual environment
 # On Windows:
 amazon_syf_csv_export\Scripts\activate
+```
+```bash
 # On macOS/Linux/WSL:
 source amazon_syf_csv_export/bin/activate
 ```
