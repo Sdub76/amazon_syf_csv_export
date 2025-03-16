@@ -21,8 +21,8 @@ A Python utility for CSV extraction of transaction data from Amazon credit card 
 1. Clone this repository or download the script file:
 
 ```bash
-git clone https://github.com/yourusername/amazon-statement-extractor.git
-cd amazon-statement-extractor
+git clone https://github.com/sdub76/amazon_syf_csv_export.git
+cd amazon_syf_csv_export
 ```
 
 2. Install required dependencies:
@@ -38,7 +38,7 @@ pip install PyPDF2
 Process one or more PDF statement files:
 
 ```bash
-python fixed-statement-verification.py statement1.pdf statement2.pdf
+python amazon_parse.py statement1.pdf statement2.pdf
 ```
 
 This will:
@@ -51,7 +51,7 @@ This will:
 Specify a custom output file name:
 
 ```bash
-python fixed-statement-verification.py statement1.pdf statement2.pdf -o my_transactions.csv
+python amazon_parse.py statement1.pdf statement2.pdf -o my_transactions.csv
 ```
 
 ### Output
