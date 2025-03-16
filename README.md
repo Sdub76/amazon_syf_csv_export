@@ -29,8 +29,9 @@ cd amazon_syf_csv_export
 
 ```bash
 # Create a virtual environment
-python -m venv amazon_syf_csv_export --system-site-packages
-
+python3 -m venv amazon_syf_csv_export --system-site-packages
+```
+```bash
 # Activate the virtual environment
 # On Windows:
 amazon_syf_csv_export\Scripts\activate
