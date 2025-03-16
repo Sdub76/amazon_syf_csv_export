@@ -29,13 +29,13 @@ cd amazon_syf_csv_export
 
 ```bash
 # Create a virtual environment
-python -m venv venv
+python -m venv amazon_syf_csv_export --system-site-packages
 
 # Activate the virtual environment
 # On Windows:
-venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
+amazon_syf_csv_export\Scripts\activate
+# On macOS/Linux/WSL:
+source amazon_syf_csv_export/bin/activate
 ```
 
 3. Install required dependencies:
