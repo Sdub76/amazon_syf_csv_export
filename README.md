@@ -56,7 +56,7 @@ deactivate
 Process one or more PDF statement files:
 
 ```bash
-python amazon_parse.py statement1.pdf statement2.pdf
+python3 amazon_parse.py statement1.pdf statement2.pdf
 ```
 
 This will:
@@ -69,7 +69,7 @@ This will:
 Specify a custom output file name:
 
 ```bash
-python amazon_parse.py statement1.pdf statement2.pdf -o my_transactions.csv
+python3 amazon_parse.py statement1.pdf statement2.pdf -o my_transactions.csv
 ```
 
 ### Output
